@@ -98,15 +98,16 @@
       padding-block: 140px;
       padding-inline: 165px;
       display: grid;
-      grid-template-columns: 445px 1fr;
+      grid-template-columns: 445px 125px 1fr;
       align-items: start;
       h2 {
         margin-inline-end: 125px;
+        width: 445px;
         font-size: 48px;
         line-height: 48px;
       }
-      .summery-card {
-        grid-column: 2;
+      .summery-list{
+        grid-column: 3;
       }
     }
   }
@@ -136,7 +137,7 @@
       margin-block-end: 48px;
 
       img {
-        margin-block-start: 16px;
+        margin-block-start: 32px;
         width: 62px;
         height: 62px;
         border-radius: 50%;
@@ -175,28 +176,26 @@
     background-color: var(--primary-200);
     color: var(--secondary-400);
     h2 {
+      font-size: 32px;
       width: 300px;
       text-align: center;
     }
     @media (width > 767px) {
-      padding-block-start: 100px;
-      padding-block-end: 98px;
+      padding-block: 84px;
+      padding-inline: 97px;
+      flex-direction: row;
+      justify-content: space-between;
       h2 {
-        width: 660px;
+        width: 336px;
       }
     }
     @media (width > 992px) {
-      h2 {
+      padding-block: 76px;
+      padding-inline: 160px;
+      h2{
         font-size: 48px;
         line-height: 48px;
-        width: 932px;
-      }
-      .review-list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        & > * {
-          margin-inline: 30px;
-        }
+        width: 504px;
       }
     }
   }
