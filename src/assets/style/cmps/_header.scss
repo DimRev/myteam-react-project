@@ -1,4 +1,4 @@
-.app-header{
+.app-header {
   margin: 0;
   padding: 0;
   display: flex;
@@ -7,7 +7,7 @@
   margin-inline: 24px;
   margin-block-start: 48px;
 
-  button {
+  .menu-btn {
     cursor: pointer;
 
     background-color: transparent;
@@ -18,10 +18,46 @@
     align-items: center;
     justify-content: center;
 
-    translate: 0 -70%
+    // translate: 0 -70%;
   }
 
-  h2{
+  h2 {
     margin-block-start: 0;
+    translate: 0 30%;
+  }
+
+  nav{
+    flex-grow: 1;
+    margin-inline-start: 48px;
+
+    display: none;
+    gap: 40px;
+    a{
+      text-decoration: none;
+      color: var(--white);
+
+    }
+  }
+
+  .contact-btn {
+    display: none;
+    border: 3px solid var(--white);
+    color: var(--white);
+  }
+
+  @media (width > 767px) {
+    margin-inline: 40px;
+    .menu-btn {
+      display: none;
+    }
+    .contact-btn {
+      display: block;
+    }
+    nav{
+      display: flex;
+    }
+  }
+  @media (width > 992px) {
+    margin-inline: 165px;
   }
 }
