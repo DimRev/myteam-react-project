@@ -18,3 +18,54 @@
   line-height: 28px;
   font-weight: 600;
 }
+
+h1.large {
+  font: 700 48px/48px 'Livvic', sans-serif;
+  @media (width > 767px) {
+  }
+  @media (width > 992px) {
+    font: 700 100px/100px 'Livvic', sans-serif;
+  }
+}
+
+h1.small {
+  font: 700 64px/56px 'Livvic', sans-serif;
+  @media (width > 767px) {
+  }
+  @media (width > 992px) {
+  }
+}
+
+h2 {
+  font: 700 32px/32px 'Livvic', sans-serif;
+  @media (width > 767px) {
+  }
+  @media (width > 992px) {
+    font: 700 48px/48px 'Livvic', sans-serif;
+  }
+}
+
+h3 {
+  font: 700 18px/28px 'Livvic', sans-serif;
+  @media (width > 767px) {
+  }
+  @media (width > 992px) {
+  }
+}
+
+.body-1 {
+  font: 600 18px/28px 'Livvic', sans-serif;
+  @media (width > 767px) {
+  }
+  @media (width > 992px) {
+  }
+}
+
+.body-2 {
+  font: 600 15px/25px 'Livvic', sans-serif;
+  @media (width > 767px) {
+  }
+  @media (width > 992px) {
+    font: 600 18px/28px 'Livvic', sans-serif;
+  }
+}

@@ -1,0 +1,32 @@
+.cta {
+  padding-block: 83px;
+  padding-inline: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--primary-200);
+  color: var(--secondary-400);
+  h2 {
+    font-size: 32px;
+    width: 300px;
+    text-align: center;
+  }
+  @media (width > 767px) {
+    padding-block: 84px;
+    padding-inline: 97px;
+    flex-direction: row;
+    justify-content: space-between;
+    h2 {
+      width: 336px;
+    }
+  }
+  @media (width > 992px) {
+    padding-block: 76px;
+    padding-inline: 160px;
+    h2 {
+      font-size: 48px;
+      line-height: 48px;
+      width: 504px;
+    }
+  }
+}
