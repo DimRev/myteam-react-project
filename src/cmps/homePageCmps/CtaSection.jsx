@@ -1,9 +1,9 @@
 import React from 'react'
 export function CtaSection({}) {
   return (
-    <section className="cta">
+    <section className="cta full">
       <h2>Rady to get started?</h2>
-      <button>contact us</button>
+      <button className='btn-outline-md'>contact us</button>
     </section>
   )
 }

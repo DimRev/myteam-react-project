@@ -2,6 +2,19 @@
   color: var(--primary-200);
 }
 
-.color-teal-txt{
-  color: var(--secondary-100)
+.color-teal-txt {
+  color: var(--secondary-100);
+}
+
+.btn-outline-md {
+  cursor: pointer;
+  padding-inline: 32px;
+  padding-block: 10px;
+  border-radius: 1000px;
+  background-color: transparent;
+  color: var(--secondary-400);
+  border: 3px solid var(--secondary-400);
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
 }
