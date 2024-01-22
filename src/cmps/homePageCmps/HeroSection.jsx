@@ -1,6 +1,6 @@
 export function HeroSection({}) {
   return (
-    <section className="hero">
+    <section className="hero full">
       <div className="hero-title-wrapper">
         <h2>Find the </h2>
         <h2>
