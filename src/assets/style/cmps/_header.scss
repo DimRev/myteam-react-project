@@ -1,0 +1,25 @@
+.app-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 24px;
+  margin-block-start: 48px;
+
+  button {
+    cursor: pointer;
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    translate: 0 -70%
+  }
+
+  h2{
+    margin-block-start: 0;
+  }
+}
