@@ -4,6 +4,10 @@
 
 //base
 @import './base/base';
+@import './base/layout';
+
+//pages
+@import './pages/homePage';
 
 //cmps
 @import './cmps/header';
