@@ -41,6 +41,10 @@
     display: none;
     border: 3px solid var(--white);
     color: var(--white);
+    &:hover{
+      color: var(--primary-100);
+      background-color: var(--white);
+    }
   }
 
   @media (width > 767px) {

@@ -17,7 +17,13 @@
   font-size: 18px;
   line-height: 28px;
   font-weight: 600;
+  transition: .3s ease;
+  &:hover{
+    background-color: var(--secondary-400);
+    color: var(--white);
+  }
 }
+
 
 h1.large {
   font: 700 48px/48px 'Livvic', sans-serif;
