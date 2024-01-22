@@ -1,4 +1,4 @@
-import { CtaSection } from './homePageCmps/CtaSection';
+import { CtaSection } from './homePageCmps/CtaSection'
 import { HeroSection } from './homePageCmps/HeroSection'
 import { ReviewsSection } from './homePageCmps/ReviewsSection'
 import { SummerySection } from './homePageCmps/SummerySection'
@@ -8,7 +8,7 @@ export function HomePage({}) {
       <HeroSection />
       <SummerySection />
       <ReviewsSection />
-      <CtaSection     />
+      <CtaSection />
     </main>
   )
 }
