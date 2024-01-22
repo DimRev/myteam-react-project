@@ -1,0 +1,43 @@
+.app-footer {
+  background-color: var(--secondary-500);
+  padding-block-start: 66px;
+  padding-block-end: 64px;
+  padding-inline: 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  h3 {
+    font-size: 26px;
+  }
+
+  .contact-links {
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+  .address {
+    margin-block-start: 24px;
+    margin-block-end: 40px;
+    display: flex;
+    flex-direction: column;
+    color: #a1a1a1;
+  }
+  .social-media {
+    margin-block-end: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  .copyrights {
+    color: #a1a1a1;
+  }
+}

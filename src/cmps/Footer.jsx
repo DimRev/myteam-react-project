@@ -1,22 +1,30 @@
 export function Footer({}) {
   return (
-    <footer>
+    <footer className="app-footer full">
+      <h3 className="title">myteam</h3>
       <section className="contact-links">
-        <h3>myteam</h3>
-        <a href="">home</a>
-        <a href="">about</a>
-        <div className="social-media">
-          <img src="" alt="facebook" />
-          <img src="" alt="pintrest" />
-          <img src="" alt="twitter" />
-        </div>
+        <nav>
+          <a className="body-1" href="">
+            home
+          </a>
+          <a className="body-1" href="">
+            about
+          </a>
+        </nav>
       </section>
-      <section className="address-copyrights">
-        <small>987 Hillcrest Lone</small>
-        <small>Irvine, CA</small>
-        <small>California 92714</small>
-        <small>Call Us: 949-833-7432</small>
-        <small>Copyrights 2020. All Rights Reserved</small>
+      <section className="address">
+        <small className="body-1">987 Hillcrest Lone</small>
+        <small className="body-1">Irvine, CA</small>
+        <small className="body-1">California 92714</small>
+        <small className="body-1">Call Us: 949-833-7432</small>
+      </section>
+      <section className="social-media">
+        <img src="/src/assets/imgs/icon-facebook.svg" alt="facebook" />
+        <img src="/src/assets/imgs/icon-pinterest.svg" alt="pinterest" />
+        <img src="/src/assets/imgs/icon-twitter.svg" alt="twitter" />
+      </section>
+      <section className="copyrights">
+        <small className="body-1">Copyrights 2020. All Rights Reserved</small>
       </section>
     </footer>
   )
